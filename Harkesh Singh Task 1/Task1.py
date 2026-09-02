@@ -18,7 +18,7 @@ for attempt in range(1, 6):
         elif guess[i] in password:          
             print(guess[i], "is correct but in the wrong position.")
         else:
-            print(guess[i], "is not present in the password
+            print(guess[i], "is not present in the password")
     if guess == password:
         print("CONGRATULATIONS! YOU CRACKED THE PASSWORD")
         print("Attempts Taken By You : ", attempt)
